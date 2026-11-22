@@ -14,8 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     themeButtons.forEach(function (button) {
       if (isDark) {
         button.setAttribute("aria-label", "Switch to light mode");
+        button.textContent = "Light mode";
       } else {
         button.setAttribute("aria-label", "Switch to dark mode");
+        button.textContent = "Dark mode";
       }
     });
   }
@@ -204,3 +206,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
