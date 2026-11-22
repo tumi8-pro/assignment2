@@ -109,10 +109,10 @@ a { color: #34533e; }
 .dark-mode .nav-link, .dark-mode .text-link, .dark-mode .eyebrow-dark { color: #b7d2b6 !important; }
 .dark-mode .form-control, .dark-mode .form-select { color: white; background: #222b24; }
 
-/* Blue navigation and large scenic banner, based on the reference layout. */
+/* Blue and sky colors with centered sections, based on the reference stylesheet. */
 .site-nav {
-  min-height: 120px;
-  padding: 18px 0;
+  min-height: 110px;
+  padding: 15px 0;
   background-color: #26364f;
 }
 
@@ -131,7 +131,7 @@ a { color: #34533e; }
 
 .site-nav .nav-link {
   margin: 4px;
-  padding: 14px 23px !important;
+  padding: 12px 20px !important;
   border-radius: 40px;
   background-color: #b0dce8;
   color: #26364f !important;
@@ -144,18 +144,72 @@ a { color: #34533e; }
 }
 
 .site-nav .theme-toggle {
-  border: 0;
-  border-radius: 4px;
+  border: 1px solid white;
+  border-radius: 20px;
   color: #26364f;
 }
 
 .hero-home {
-  min-height: 760px;
+  min-height: 680px;
   background-position: center 45%;
 }
 
+.hero-home .hero-content {
+  padding-top: 210px;
+  text-align: center;
+}
+
+.hero-home .hero-copy {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro-section {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.intro-section .intro-copy {
+  font-size: 18px;
+}
+
+.place-card,
+.destination-card,
+.service-card,
+.form-panel {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #cccccc;
+}
+
+.place-card img,
+.destination-card img,
+.gallery-tile img {
+  border-radius: 8px;
+}
+
+.site-footer {
+  background-color: #b0dce8;
+  color: #26364f;
+}
+
+.site-footer a,
+.footer-tag,
+.footer-bottom {
+  color: #26364f;
+}
+
+.site-footer h2 {
+  color: #26364f;
+}
+
 .page-hero {
-  min-height: 520px;
+  min-height: 480px;
+  text-align: center;
+}
+
+.page-hero-content {
+  width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -166,7 +220,9 @@ a { color: #34533e; }
 
 @media (max-width: 768px) {
   .hero-home { min-height: 560px; }
+  .hero-home .hero-content { padding-top: 170px; }
   .page-hero { min-height: 400px; }
+  .site-footer { color: #26364f; }
 }
 
 @media (max-width: 768px) {
