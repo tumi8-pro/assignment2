@@ -103,9 +103,14 @@ a { color: #34533e; }
 .dark-mode { background: #222b24; color: white; }
 .dark-mode .site-nav, .dark-mode .intro-section, .dark-mode .values-band,
 .dark-mode .destination-card, .dark-mode .form-panel, .dark-mode .service-card,
-.dark-mode .newsletter, .dark-mode .travel-note { background: #303c33; }
+.dark-mode .newsletter, .dark-mode .travel-note, .dark-mode .home-welcome { background: #303c33; }
+.dark-mode .site-footer { background: #26364f; color: white; }
+.dark-mode .site-footer a, .dark-mode .site-footer p, .dark-mode .site-footer h2,
+.dark-mode .site-footer .footer-bottom { color: white; }
 .dark-mode .body-copy, .dark-mode .intro-copy, .dark-mode .destination-info p,
 .dark-mode .service-card p, .dark-mode .value-card p { color: #ddd; }
+.dark-mode .home-welcome p { color: #ddd; }
+.dark-mode .home-welcome a { color: #b7d2b6; }
 .dark-mode .nav-link, .dark-mode .text-link, .dark-mode .eyebrow-dark { color: #b7d2b6 !important; }
 .dark-mode .form-control, .dark-mode .form-select { color: white; background: #222b24; }
 
