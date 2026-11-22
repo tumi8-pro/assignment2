@@ -1,0 +1,565 @@
+header {
+    background-color: #26364f;
+    padding: 25px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    background-color: lightblue;
+    color: darkblue;
+    text-decoration: none;
+    padding: 18px 35px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: white;
+    color: green;
+}
+
+.hero{
+	width: 100%;
+	height: 100%%;
+    text-align: center;
+
+}
+.hero-text{
+    text-align: center;
+}
+
+.hero-content h1{
+	font-size: 36px;
+}
+.hero-image img{
+	height: 80%;
+}
+.welcome{
+	padding: 70px 100px;
+	background-color: whitesmoke;
+    text-align: center;
+
+}
+.welcome p {
+	font-size: 20px;
+	line-height: 1.8;
+	margin-bottom: 30px;
+}
+footer{
+    padding: 15px;
+	background-color: skyblue;
+	text-align: center;
+}
+
+.about-page .hero {
+    height: 260px;
+    background:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 50px;
+}
+
+.about-page .hero h1 {
+    font-size: 65px;
+}
+
+.about-page .hero p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.about-page .container {
+    padding: 30px;
+}
+
+.about-page .welcome {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.about-page .welcome img {
+    width: 60%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.about-page .welcome-text {
+    flex: 1;
+}
+
+.about-page .mission {
+    flex: 1;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.about-page .about-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.about-page .section {
+    padding: 15px;
+    border-right: 2px solid lightsteelblue;
+}
+
+.about-page .bottom {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.about-page .destinations {
+    display: flex;
+    gap: 10px;
+}
+
+.about-page .destination {
+    width: 33.3%;
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about-page .destination img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.about-page .contact {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.about-page footer {
+    background-color: aliceblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+.about-page .welcome {
+ flex-direction: column;
+ }
+
+.about-page .welcome img {
+ width: 100%;
+ }
+
+.about-page .about-info,
+.about-page .bottom {
+grid-template-columns: 1fr;
+}
+
+.about-page .destinations {
+ flex-wrap: wrap;
+ }
+
+.about-page .destination {
+ width: 100%;
+ }
+
+.about-page .hero h1 {
+font-size: 42px;
+
+.destinations-container {
+ display: grid;          
+ gap: 30px;              
+ flex-wrap: wrap; 
+grid-template-columns: repeat(3, 1fr);     
+ }
+
+        
+.destination-card {
+ width: 100%;
+}
+
+.destination-card img {
+ width: 100%;            
+ height: 200px;          
+ object-fit: cover; 
+ border-radius: 4px;
+}
+
+.destination-card h3 {
+ margin: 10px 0 5px;
+font-size: 18px;
+}
+
+.destination-card p {
+ color: darkgray;
+ font-size: 15px;
+}
+.gallery {
+    text-align: center;
+    padding: 40px;
+}
+
+.gallery h2 {
+    color:deepskyblue;
+    font-size: 30px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.photo {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px gray;
+}
+.photo1 {
+    background-color: white;
+    margin-top: 250px;
+    margin-left: -700px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px gray;
+}
+
+.photo img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.photo h3 {
+    color: deepskyblue;
+    padding: 10px;
+}
+
+ .form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    color:lightblue;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color:darkgrey;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color:blue;
+    box-shadow: 0 0 0 2px rgba(44, 95, 45, 0.2);
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.btn {
+    width: 100%;
+    background: forestgreen;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #forestgreen;
+}
+
+.success-msg {
+    margin-top: 15px;
+    text-align: center;
+    color: #2ecc71;
+    font-weight: bold;
+    display: none;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: ghostwhite;
+        }
+
+        h2 {
+            color:forestgreen;
+            margin-top: 40px;
+        }
+
+         .form-box {
+            background: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 450px;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: lightgreen;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 18px;
+            background: forestgreen;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: forestgreen;
+        }
+
+        .success {
+            margin-top: 12px;
+            color: mediumseagreen;
+            font-weight: bold;
+            display: none;
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: lightblue;
+        }
+
+        h2 {
+            color: forestgreen;
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .forms-wrapper {
+            display: flex;
+            gap: 40px;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .form-box {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            flex: 1;  
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+            font-size: 14px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 18px;
+            background: #2c5f2d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 15px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background: forestgreen;
+        }
+
+        .success {
+            margin-top: 12px;
+            color: #2ecc71;
+            font-weight: bold;
+            display: none;
+            font-size: 13px;
+        }
+:root {
+    --bg-color: white;
+    --text-color: very dark gray;
+    --card-bg: white;
+    --section-bg: off-white;
+    --nav-footer-bg: deep blue;
+}
+
+.dark-mode {
+    --bg-color: dark charcoal;
+    --text-color: light gray;
+    --card-bg: medium charcoal;
+    --section-bg: darker gray;
+    --nav-footer-bg: darker deep blue;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.welcome, .destinations-section {
+    background-color: var(--section-bg);
+}
+
+.destination-card, .form-box {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+header, footer {
+    background-color: var(--nav-footer-bg);
+}
+
+.dark-mode-toggle {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.dark-mode-toggle:hover {
+    background: semi-transparent white;
+
+}
+/* Previous and Next buttons */
+
+.page-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 40px auto;
+    padding: 20px;
+}
+/* PAGE BUTTONS */
+
+.page-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin: 40px auto;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.page-buttons a {
+    background: #205493;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 22px 35px;
+    border-radius: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+.page-buttons a:hover {
+    background: #003366;
+}
+
+/* PHONE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+
+    .page-buttons {
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .page-buttons a {
+        font-size: 18px;
+        padding: 16px 22px;
+    }
+
+}
