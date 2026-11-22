@@ -22,11 +22,11 @@ a { color: #34533e; }
 .theme-toggle { padding: 5px 10px; background: white; border: 1px solid #888; }
 
 .hero, .page-hero { position: relative; color: white; background-position: center; background-size: cover; }
-.hero-home { min-height: 600px; background-image: url('../sehlabathebe.jfif'); }
-.about-hero { background-image: url('../sani_pass.jfif'); }
-.places-hero { background-image: url('../sehlabathebe.jfif'); }
-.gallery-hero { background-image: url('../katse.jpg'); }
-.contact-hero { background-image: url('../sehlabathebe.jfif'); }
+.hero-home { min-height: 600px; background-image: url('sehlabathebe.jfif'); }
+.about-hero { background-image: url('sani_pass.jfif'); }
+.places-hero { background-image: url('sehlabathebe.jfif'); }
+.gallery-hero { background-image: url('katse.jpg'); }
+.contact-hero { background-image: url('sehlabathebe.jfif'); }
 .hero-shade { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,.4); }
 .hero-content, .page-hero-content { position: relative; padding-top: 150px; }
 .page-hero { min-height: 400px; padding-bottom: 40px; }
@@ -47,7 +47,7 @@ a { color: #34533e; }
 .btn-dark-custom { color: white; background: #34533e; }
 
 .feature-band { display: flex; background: #34533e; color: white; }
-.feature-image { width: 50%; min-height: 340px; background: url('../sehlabathebe.jfif') center/cover; }
+.feature-image { width: 50%; min-height: 340px; background: url('sehlabathebe.jfif') center/cover; }
 .feature-copy { width: 50%; padding: 35px; }
 .feature-copy h2, .newsletter h2 { font-size: 40px; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; }
@@ -296,3 +296,4 @@ a { color: #34533e; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .gallery-tile { height: 160px; }
 }
+
